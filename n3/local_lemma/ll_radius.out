@@ -1,0 +1,5 @@
+(A) angle condition: 0.182817 > 0.134578 : True
+(B) contact validity: margin change 0.315396 < 0.366025 : True
+float search: max over the region of min_i k_i = -1.763e-03 (lemma says <= 0, = 0 only at the pinwheel)
+  at [ 1.000e-06  4.040e-04 -1.754e-03 -3.192e-03 -7.280e-04 -1.000e-06
+ -1.366e-03 -4.144e-03 -3.505e-03]
