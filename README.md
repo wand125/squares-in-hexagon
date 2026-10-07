@@ -1,3 +1,5 @@
+> **Moved:** this repository is now part of [wand125/square-packing](https://github.com/wand125/square-packing/tree/main/problems/hexagon) (`problems/hexagon/`). This copy is archived; every path is mapped in `MOVED.json`, and old links, commits and releases keep working.
+
 # Unit squares in a regular hexagon: the optimal packing of 3 squares
 
 Let s(n) be the smallest side v of a regular hexagon that contains n non-overlapping unit squares

@@ -1,0 +1,295 @@
+{
+ "schema": "moved/v1",
+ "old_repository": "wand125/squares-in-hexagon",
+ "old_head": "c392bbde9206e300c363c8cc041d093107126f9a",
+ "new_repository": "wand125/square-packing",
+ "note": "Every path of the old repository at old_head and where it lives now: 'new' is a path in the new repository's git tree (documents, code, metadata); 'new_release' is a release asset (certificate data) with the path inside it. The old repository is archived (read-only); its history and releases remain available.",
+ "paths": [
+  {
+   "old": "n3/PROOF.md",
+   "new": "problems/hexagon/n3/PROOF.md"
+  },
+  {
+   "old": "n3/SPEC_stage1.md",
+   "new": "problems/hexagon/n3/SPEC_stage1.md"
+  },
+  {
+   "old": "n3/SPEC_stage2.md",
+   "new": "problems/hexagon/n3/SPEC_stage2.md"
+  },
+  {
+   "old": "n3/local_lemma/LOCAL_LEMMA.md",
+   "new": "problems/hexagon/n3/local_lemma/LOCAL_LEMMA.md"
+  },
+  {
+   "old": "n3/local_lemma/LOCAL_LEMMA_SHORT.md",
+   "new": "problems/hexagon/n3/local_lemma/LOCAL_LEMMA_SHORT.md"
+  },
+  {
+   "old": "n3/local_lemma/ll_exact.out",
+   "new": null,
+   "new_release": {
+    "tag": "hexagon-v1",
+    "assets": [
+     "n3.tar.gz"
+    ],
+    "sha256": [
+     "53f985f534c75f825ac157a1eb614836b38c6ac75ca48d03bf4c6c4945acfee4"
+    ],
+    "path_inside": "n3/local_lemma/ll_exact.out",
+    "unpack": "tar xzf n3.tar.gz -C problems/hexagon"
+   }
+  },
+  {
+   "old": "n3/local_lemma/ll_exact.py",
+   "new": "problems/hexagon/n3/local_lemma/ll_exact.py"
+  },
+  {
+   "old": "n3/local_lemma/ll_radius.out",
+   "new": null,
+   "new_release": {
+    "tag": "hexagon-v1",
+    "assets": [
+     "n3.tar.gz"
+    ],
+    "sha256": [
+     "53f985f534c75f825ac157a1eb614836b38c6ac75ca48d03bf4c6c4945acfee4"
+    ],
+    "path_inside": "n3/local_lemma/ll_radius.out",
+    "unpack": "tar xzf n3.tar.gz -C problems/hexagon"
+   }
+  },
+  {
+   "old": "n3/local_lemma/ll_radius.py",
+   "new": "problems/hexagon/n3/local_lemma/ll_radius.py"
+  },
+  {
+   "old": "n3/stage1_cert.json",
+   "new": null,
+   "new_release": {
+    "tag": "hexagon-v1",
+    "assets": [
+     "n3.tar.gz"
+    ],
+    "sha256": [
+     "53f985f534c75f825ac157a1eb614836b38c6ac75ca48d03bf4c6c4945acfee4"
+    ],
+    "path_inside": "n3/stage1_cert.json",
+    "unpack": "tar xzf n3.tar.gz -C problems/hexagon"
+   }
+  },
+  {
+   "old": ".gitignore",
+   "new": "problems/hexagon/.gitignore"
+  },
+  {
+   "old": "LICENSE",
+   "new": "problems/hexagon/LICENSE"
+  },
+  {
+   "old": "README.md",
+   "new": "problems/hexagon/README.md"
+  },
+  {
+   "old": "SHA256SUMS",
+   "new": "problems/hexagon/SHA256SUMS"
+  },
+  {
+   "old": "stage1_checker/README.md",
+   "new": "problems/hexagon/stage1_checker/README.md"
+  },
+  {
+   "old": "stage1_checker/SOUNDNESS.md",
+   "new": "problems/hexagon/stage1_checker/SOUNDNESS.md"
+  },
+  {
+   "old": "stage1_checker/check_hex.py",
+   "new": "problems/hexagon/stage1_checker/check_hex.py"
+  },
+  {
+   "old": "stage1_checker/examples/n1_centre.json",
+   "new": "problems/hexagon/stage1_checker/examples/n1_centre.json"
+  },
+  {
+   "old": "stage1_checker/examples/n2_centre.json",
+   "new": "problems/hexagon/stage1_checker/examples/n2_centre.json"
+  },
+  {
+   "old": "stage1_checker/examples/n2_neg.json",
+   "new": "problems/hexagon/stage1_checker/examples/n2_neg.json"
+  },
+  {
+   "old": "stage1_checker/examples/n2_neg_allexcused.json",
+   "new": "problems/hexagon/stage1_checker/examples/n2_neg_allexcused.json"
+  },
+  {
+   "old": "stage1_checker/poly.py",
+   "new": "problems/hexagon/stage1_checker/poly.py"
+  },
+  {
+   "old": "stage1_checker/q3.py",
+   "new": "problems/hexagon/stage1_checker/q3.py"
+  },
+  {
+   "old": "stage1_checker/records/stage1_check_d32.json",
+   "new": "problems/hexagon/stage1_checker/records/stage1_check_d32.json"
+  },
+  {
+   "old": "stage1_checker2/README.md",
+   "new": "problems/hexagon/stage1_checker2/README.md"
+  },
+  {
+   "old": "stage1_checker2/hexcheck.py",
+   "new": "problems/hexagon/stage1_checker2/hexcheck.py"
+  },
+  {
+   "old": "stage1_checker2/hexwitness.py",
+   "new": "problems/hexagon/stage1_checker2/hexwitness.py"
+  },
+  {
+   "old": "stage1_checker2/q3.py",
+   "new": "problems/hexagon/stage1_checker2/q3.py"
+  },
+  {
+   "old": "stage1_checker2/stage1_check2.json",
+   "new": "problems/hexagon/stage1_checker2/stage1_check2.json"
+  },
+  {
+   "old": "stage1_checker2/stage1_check2_progress.log",
+   "new": "problems/hexagon/stage1_checker2/stage1_check2_progress.log"
+  },
+  {
+   "old": "stage1_checker2/sweep.py",
+   "new": "problems/hexagon/stage1_checker2/sweep.py"
+  },
+  {
+   "old": "stage1_checker2/witness_excused.json",
+   "new": "problems/hexagon/stage1_checker2/witness_excused.json"
+  },
+  {
+   "old": "stage2_checker/README.md",
+   "new": "problems/hexagon/stage2_checker/README.md"
+  },
+  {
+   "old": "stage2_checker/bb_rig.py",
+   "new": "problems/hexagon/stage2_checker/bb_rig.py"
+  },
+  {
+   "old": "stage2_checker/bb_rig_batch.py",
+   "new": "problems/hexagon/stage2_checker/bb_rig_batch.py"
+  },
+  {
+   "old": "stage2_checker/controls/README.md",
+   "new": "problems/hexagon/stage2_checker/controls/README.md"
+  },
+  {
+   "old": "stage2_checker/controls/bb_rig_nc.py",
+   "new": "problems/hexagon/stage2_checker/controls/bb_rig_nc.py"
+  },
+  {
+   "old": "stage2_checker/controls/leafdist.py",
+   "new": "problems/hexagon/stage2_checker/controls/leafdist.py"
+  },
+  {
+   "old": "stage2_checker/controls/nc3_pinwheel.py",
+   "new": "problems/hexagon/stage2_checker/controls/nc3_pinwheel.py"
+  },
+  {
+   "old": "stage2_checker/controls/records/leafdist.out",
+   "new": "problems/hexagon/stage2_checker/controls/records/leafdist.out"
+  },
+  {
+   "old": "stage2_checker/controls/records/nc1_side1.00_nolemma.out",
+   "new": "problems/hexagon/stage2_checker/controls/records/nc1_side1.00_nolemma.out"
+  },
+  {
+   "old": "stage2_checker/controls/records/nc3_pinwheel.out",
+   "new": "problems/hexagon/stage2_checker/controls/records/nc3_pinwheel.out"
+  },
+  {
+   "old": "stage2_checker/controls/records/nc3_side1.01_nolemma.out",
+   "new": "problems/hexagon/stage2_checker/controls/records/nc3_side1.01_nolemma.out"
+  },
+  {
+   "old": "stage2_checker/controls/records/nc_leaves_box86_s1.01_lem0.npy",
+   "new": "problems/hexagon/stage2_checker/controls/records/nc_leaves_box86_s1.01_lem0.npy"
+  },
+  {
+   "old": "stage2_checker/controls/records/nc_leaves_box86_s1.0_lem0.npy",
+   "new": "problems/hexagon/stage2_checker/controls/records/nc_leaves_box86_s1.0_lem0.npy"
+  },
+  {
+   "old": "stage2_checker/fuzz_rig.py",
+   "new": "problems/hexagon/stage2_checker/fuzz_rig.py"
+  },
+  {
+   "old": "stage2_checker/results/fuzz_rig.out",
+   "new": "problems/hexagon/stage2_checker/results/fuzz_rig.out"
+  },
+  {
+   "old": "stage2_checker/results/rig_batch.log",
+   "new": "problems/hexagon/stage2_checker/results/rig_batch.log"
+  },
+  {
+   "old": "stage2_checker/results/rig_results.jsonl",
+   "new": "problems/hexagon/stage2_checker/results/rig_results.jsonl"
+  },
+  {
+   "old": "stage2_checker2/Cargo.lock",
+   "new": "problems/hexagon/stage2_checker2/Cargo.lock"
+  },
+  {
+   "old": "stage2_checker2/Cargo.toml",
+   "new": "problems/hexagon/stage2_checker2/Cargo.toml"
+  },
+  {
+   "old": "stage2_checker2/README.md",
+   "new": "problems/hexagon/stage2_checker2/README.md"
+  },
+  {
+   "old": "stage2_checker2/del11_run/SHA256SUMS",
+   "new": "problems/hexagon/stage2_checker2/del11_run/SHA256SUMS"
+  },
+  {
+   "old": "stage2_checker2/del11_run/full.jsonl",
+   "new": "problems/hexagon/stage2_checker2/del11_run/full.jsonl"
+  },
+  {
+   "old": "stage2_checker2/del11_run/full.stderr",
+   "new": "problems/hexagon/stage2_checker2/del11_run/full.stderr"
+  },
+  {
+   "old": "stage2_checker2/del11_run/neg.jsonl",
+   "new": "problems/hexagon/stage2_checker2/del11_run/neg.jsonl"
+  },
+  {
+   "old": "stage2_checker2/del11_run/neg.stderr",
+   "new": "problems/hexagon/stage2_checker2/del11_run/neg.stderr"
+  },
+  {
+   "old": "stage2_checker2/del11_run/run.sh",
+   "new": "problems/hexagon/stage2_checker2/del11_run/run.sh"
+  },
+  {
+   "old": "stage2_checker2/src/geometry.rs",
+   "new": "problems/hexagon/stage2_checker2/src/geometry.rs"
+  },
+  {
+   "old": "stage2_checker2/src/interval.rs",
+   "new": "problems/hexagon/stage2_checker2/src/interval.rs"
+  },
+  {
+   "old": "stage2_checker2/src/json.rs",
+   "new": "problems/hexagon/stage2_checker2/src/json.rs"
+  },
+  {
+   "old": "stage2_checker2/src/main.rs",
+   "new": "problems/hexagon/stage2_checker2/src/main.rs"
+  },
+  {
+   "old": "stage2_checker2/src/tests.rs",
+   "new": "problems/hexagon/stage2_checker2/src/tests.rs"
+  }
+ ],
+ "releases": []
+}
